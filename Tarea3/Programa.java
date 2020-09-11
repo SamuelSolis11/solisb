@@ -1,22 +1,21 @@
-class Fibo{
+
+ class Fibo {
 
     public static void main (String args[]){
-         
+        int intValor1=1;
+        int intValor2=2;
+        int intAux;
+        System.out.println (intValor1 );
+        System.out.println ( intValor2);
+        do{
+            intAux= intValor2 +intValor1;
+            System.out.println(intAux);
+            intValor1=intValor2;
+            intValor2 = intAux;
 
-        int Valor1= 1;
-        int Valor2=2;
+       
+        }while(intValor2 <=100);
         
-         
-        System.out.println ( Valor1 );
-        System.out.println ( Valor2);
-        for(int x=1; x<=10 ; x++) {
-            int Suma = Valor1+Valor2;
-            System.out.println ( Suma);
-            Valor1 =Valor2;
-            Valor2 = Suma;
 
-        
-
-        }
     } 
 }

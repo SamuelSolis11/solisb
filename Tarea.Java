@@ -1,6 +1,6 @@
 class Fibo{
 
-    public static void main (String arga[]){
+    public static void main (String args[]){
          
 
         int Valor1= 1;
